@@ -5,7 +5,7 @@ function Footer() {
     let data = new Date().getFullYear()
 
     return (
-            <div className="w-full flex justify-center bg-slate-900 text-white bottom-0 fixed">
+            <div className="w-full flex justify-center bg-slate-900 text-white">
                 <div className="container flex flex-col items-center py-4 gap-0.5">
                     <p className='text-lg'>
                             Farmácia Generation | Copyright: {data}

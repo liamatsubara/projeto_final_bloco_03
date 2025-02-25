@@ -2,7 +2,7 @@
 function Home() {
     return (
 
-      <div className="flex justify-center bg-slate-500"> 
+      <div className="flex justify-center items-center bg-slate-500 h-screen"> 
 
           <div className="container grid grid-cols-2 text-white">
 
