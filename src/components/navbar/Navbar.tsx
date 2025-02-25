@@ -12,10 +12,10 @@ function Navbar() {
             </Link>
 
             <div className="flex items-center gap-4">
-                <span>Categorias</span>
-                <span>Cadastrar Categoria</span>
-                <User size={32} weight="thin" />
-                <ShoppingCart size={32} weight="thin" />
+              <Link to='/categorias' className="hover:underline">Categorias</Link>
+              <Link to='/cadastrarcategoria' className='hover:underline'>Cadastrar categoria</Link>
+              <User size={32} weight="thin" />
+              <ShoppingCart size={32} weight="thin" />
             </div>
         </div>
     </div>
